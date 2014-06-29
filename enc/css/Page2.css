@@ -1,0 +1,19 @@
+#Page2-text{
+	height: auto;
+	width: 620px;
+	background-color: #fff;
+	padding-top: 10px; 
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+}
+
+#Page2-text > p{
+	margin-left: 10px;
+	line-height: 120%;
+	font-size: 14px;
+}
+
+#Page2-text > h3{
+	color: rgb(218,15,96);
+}

@@ -1,0 +1,19 @@
+#Page4-text{
+	height: auto;
+	width: 620px;
+	background-color: #fff;
+	padding-top: 10px; 
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+}
+
+#Page4-text > a{
+	margin-left: 10px;
+	margin-top: 10px;
+	color: #0099FF;
+}
+
+#Page4-text > h3{
+	color: rgb(218,15,96);
+}

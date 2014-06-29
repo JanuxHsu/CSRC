@@ -1,0 +1,97 @@
+body{
+	background-attachment: fixed;
+	background-image: url('/CTRC/asset/img/bg.png');
+	background-repeat: repeat-x;
+}
+.container{
+	padding-top: 20px;
+	width: 80%;
+	margin: 0 auto;
+}
+#footer_area{
+	background-color: #EAEAEA;
+
+}
+.map_container{
+	height: 340px;
+}
+.contact_box{
+			padding: 3%;
+			text-align:justify;
+			text-justify:inter-ideograph;
+			height: 340px;
+		}
+.contact_title{
+	font-family: 微軟正黑體;
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 5px;
+	margin-bottom: 10px;
+	color:  #5e5e5e;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ddd; 
+
+}
+.contact_info{
+	font-family: 微軟正黑體;
+	display: block;
+	font-size: 13px;
+	margin: 5px;
+	color:  #5e5e5e;
+}
+.foot{
+	margin-bottom: 20px;
+}
+/*index_view*/
+.index_content{
+	margin-bottom: 20px;
+}
+.index_img{
+	padding: 0;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	width:100%!important;
+}
+.index_img_nail{
+	padding: 0!important;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 0px 0px 25px #4C4C4D;
+	-webkit-box-shadow: 0px 0px 25px #4C4C4D;
+	box-shadow: 0px 0px 25px #4C4C4D;
+}
+.news{
+	padding: 15px;
+	color:#5e5e5e;
+}
+.news_title{
+	border-bottom: 1px solid  #ddd;
+}
+.news_title_content{
+	font-size: 18px;
+	font-family: 微軟正黑體;
+	
+}
+.news_content{
+	margin: 5px;
+	margin-top: 10px;
+	border-bottom: 1px solid #ddd;
+}
+.news_content_title{
+	font-size: 16px;
+	font-family: 微軟正黑體;
+	/*font-weight: bolder;*/
+	padding-bottom: 3px;
+	border-bottom: 1px solid #ddd;
+}
+.news_content p{
+	font-size: 14px;
+	font-family: 微軟正黑體;
+	padding: 5px;
+}
+.target,.future{
+	list-style-type: none;
+}

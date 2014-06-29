@@ -1,0 +1,12 @@
+#Page3-text{
+	height: 590px;
+	width: 620px;
+	background-color: #fff;
+	padding-top: 10px; 
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#Page3-text > p{
+	line-height: 120%;
+}

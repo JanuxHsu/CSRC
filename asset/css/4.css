@@ -1,0 +1,16 @@
+img{
+	width: 100%;
+}
+
+table.table-casualties {
+    width: 100%;
+}
+table.table-casualties th, table.table-casualties td {
+    border: 1px #000 solid;
+}
+table.table-casualties tr.row-month-name {
+    background-color: #ADE;
+}
+table.table-casualties tr.row-data {
+    text-align: center;
+}

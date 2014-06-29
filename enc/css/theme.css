@@ -1,0 +1,149 @@
+body{
+	background-image: url(../img/background.jpg);
+	background-repeat: repeat;
+	height: auto;
+	margin: 10px;
+	margin-bottom: 10px;
+	overflow-y: auto;
+}
+
+#wrapper{
+	margin: 20px auto;
+	padding: 20px;
+	height: 1000px;
+	width: 1000px;
+	background-color: #fff;
+	box-shadow:4px 4px 3px rgb(20%,20%,40%);
+}
+
+#main-header{
+	height: 200px;
+	width: 100%;
+	background-color:rgb(70,20,55);
+}
+
+#content-container{
+	width: 100%;
+	height: 700px;
+	background-color: rgb(190,175,150);
+}
+
+#footer{
+	height: 85px;
+	width: 100%;
+	color: #fff;
+	line-height: 120%;
+	background-color: rgb(255,125,65);
+	padding-top: 15px;
+	text-align: center;
+}
+
+#footer > a{
+	color: #fff;
+}
+
+#main-pic{
+	height: 200px;
+	width: 270px;
+	background-image: url(../img/main.png);
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
+}
+
+#sidebar{
+	width: 250px;
+	height: 100%;
+	background-color: rgb(234,232,207);
+	padding:10px;
+}
+
+.sidebar-item{
+	margin: 2px;
+	height: 50px;
+	width: 100%;
+	background-color: rgb(100,100,100);
+	border: 0px;
+	border-radius: 10px;
+	outline: none;
+	color: white;
+	font-size: 22px;
+	font-weight: bolder;
+}
+
+.sidebar-item:hover{
+	background-color: rgb(150,0,250);
+}
+
+#content-header{
+	margin-left: 295px;
+	margin-top: -700px;
+	width: 660px;
+	height: 30px;
+	background-color: rgb(100,100,100);
+	border-radius: 10px;
+	text-align: center;
+	font-size: 25px;
+	color: #FFF;
+	padding: 10px;
+
+}
+
+#content-box{
+	margin-top: 10px;
+	margin-left: 295px;
+	height: 600px;
+	width: 680px;
+	background-color: rgb(250,250,250);
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.CB-item{
+	height: auto;
+	width: 620px;
+	background-color: rgb(100,100,100);
+	margin: 10px;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 7px;
+	padding-left: 15px!important;
+	padding-right: 15px!important;
+	color: #FFF;
+
+}
+
+.CB-item:hover{
+	cursor: pointer;
+}
+
+.time-stamp{
+	position: relative;
+	right: 0px;
+	font-size: 12px;
+	color: rgb(130,169,226);
+	display: none;
+}
+
+.CB-item-content{
+	display: none;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	height: auto;
+	width: 600px;
+	background-color: rgb(255,255,255);
+	padding: 10px;
+	border-radius: 10px;
+	line-height: 150%;
+}
+
+.CB-item-content > p {
+	font-size: 14px;
+	color: #0066FF;
+}
+
+.CB-item-content:hover{
+	cursor: default!important;
+
+}
